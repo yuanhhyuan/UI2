@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <View
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/font_blue"/>
+    <View
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <TextView
+        android:id="@+id/leftTV"
+        android:layout_below="@id/statusView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="返回"
+        android:textSize="18dp"
+        android:textColor="@color/font_white"
+        android:drawableLeft="@drawable/fanhui"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="hellooo"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/ib_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/more"/>
+
+</RelativeLayout>
